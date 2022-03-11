@@ -1,0 +1,10 @@
+{
+  "name": "flowchart-img-gen",
+  "version": "1.0.0",
+  "main": "trans.js",
+  "scripts": {
+    "gen": "node trans.js a"
+  },
+  "author": "klay",
+  "license": "ISC"
+}
