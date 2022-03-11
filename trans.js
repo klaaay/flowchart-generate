@@ -4,8 +4,8 @@ const process = require("child_process");
 const IMGS_DIR_NAME = "imgs";
 const IMG_MD_FILE_NAME = "img";
 
-const CUR_BOOK = "贪婪的多巴胺";
-const FULL_BOOK_PATH = `${__dirname}/${CUR_BOOK}`;
+const CUR_DIR_NAME = "贪婪的多巴胺";
+const FULL_BOOK_PATH = `${__dirname}/${CUR_DIR_NAME}`;
 
 fs.readdir(FULL_BOOK_PATH, function (err, files) {
   if (!files.includes(IMGS_DIR_NAME)) {
